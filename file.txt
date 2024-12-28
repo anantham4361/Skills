@@ -1,0 +1,27 @@
+1. head
+Displays the first few lines of a file.
+Syntax:
+head [options] [file]
+
+2. tail
+Displays the last few lines of a file.
+Syntax:
+tail [options] [file]
+
+3. sort
+Sorts the lines of a file or input.
+Syntax:
+sort [options] [file]
+Sorts lines in alphabetical order.
+Options:
+-n: Sort numerically.
+-r: Sort in reverse order.
+
+4. cut
+Cuts and extracts specific sections of input lines.
+Syntax:
+cut [options] [file]
+
+Options:
+-d: Specify the delimiter.
+-f: Specify fields to extract.
