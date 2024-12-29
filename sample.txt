@@ -1,0 +1,15 @@
+A file is basically a container that contains data.
+A text file is a very important and simplest kind of file.
+Text file is used to store data in textual format.
+What is a Text File?
+A text file is a file that contains data in the form of text.
+This is used to store and share textual data and is useful for human and software systems.
+A text file generally uses a simple character encoding such as UTF-8 and ASCII. text is a collection of alphanumerical characters.
+A text file is non-executable.
+A text file can be identified by a vivid kind of extension associated with its types such as .txt, .csv, .html, .xml, .py, .log, etc.
+In some programming issues codes of various software are written in form text files before execution.
+For example, before making a web page its code needs to be created in the form of a text file of a .html extension
+unix is great os. unix is opensource. unix is free os.
+learn operating system.
+unix linux which one you choose.
+unix is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.
