@@ -5,3 +5,22 @@
 5.	\	It is used for escape following character.
 6.	()	It is used to match or search for a set of regular expressions.
 7.	?	It matches exactly one character in the string or stream.
+---------------------------------------------------------------------------
+
+Regular Expressions (Regex)
+Regex is a syntax for defining patterns to search, match, or manipulate text.
+
+Character Sets in Regex
+Character sets represent groups of characters. Below are 10 common regex character sets:
+
+Character Set	Description	Example
+[abc]	        Matches any one of a, b, or c.	grep "[aeiou]" matches vowels.
+[^abc]	        Matches any character except a, b, or c.	grep "[^aeiou]" matches non-vowels.
+[a-z]	        Matches any lowercase letter.	grep "[a-z]" matches lowercase.
+[A-Z]	        Matches any uppercase letter.	grep "[A-Z]" matches uppercase.
+[0-9]	        Matches any digit.	grep "[0-9]" matches digits.
+[a-zA-Z0-9]	Matches alphanumeric characters.	grep "[a-zA-Z0-9]" matches letters or digits.
+.	        Matches any single character except newline.	grep "c.t" matches cat, cot.
+\w	        Matches any word character (alphanumeric + underscore).	grep -E "\w" matches hello_123.
+\d	        Matches any digit (0-9).	grep -E "\d" matches numbers.
+\s	        Matches any whitespace (space, tab, newline).	grep -E "\s" matches spaces.
