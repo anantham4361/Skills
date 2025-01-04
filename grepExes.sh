@@ -15,3 +15,6 @@ echo ""
 egrep "^12" emp1.lst
 echo ''
 grep -i "SHYAM" emp1.lst
+
+echo "Command to search all the records begin with 2 in chap01"
+grep "^2" chap01
