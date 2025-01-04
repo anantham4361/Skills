@@ -24,3 +24,7 @@ Character Set	Description	Example
 \w	        Matches any word character (alphanumeric + underscore).	grep -E "\w" matches hello_123.
 \d	        Matches any digit (0-9).	grep -E "\d" matches numbers.
 \s	        Matches any whitespace (space, tab, newline).	grep -E "\s" matches spaces.
+
+
+[] - character class - restricting to certain characters or range
+^ - negation
